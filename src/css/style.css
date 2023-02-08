@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main{
+    background: url('../images/bg-desktop.png');
+    height: 872px;
+    background-size: 100%;
+    background-color: var(--color1);
+    font-size: 40px;
+}
+
+.header{
+    height: 152px;
+}
+
+.header .logo{
+    width: 150px;
+    height: 37.11px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.section .ilustracao{
+    margin-left: 60px;
+
+}
+
+.section .texts .title{
+    font-weight: 600;
+    color: #fff;
+}
+
+.section .texts .text{
+    color: #fff;
+    text-align: left;
+    font-size: 17.6px;
+    margin-top: 20px;
+    margin-bottom:26px;
+    line-height: 26px;
+}
+
+.section .texts .title, .button-register{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button-register{
+    height: 57.66px;
+    width: 220px;
+    font-size: 17.6px;
+    color: var(--color1);
+    border: none;
+    border-radius: 30px;
+    border-color: #fff;
+    box-shadow: 5px 5px 5px #4e3985;
+}
+
+.section .texts .button-register:hover{
+    color: #fff;
+    background-color: var(--color2);
+    border-color: var(--color2);
+}
+
+.texts{
+    width:501px;
+    margin-left: 40px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    /* padding: 8px; */
+    font-size: 22px;
+    padding: 5px 0 0 7px;
+    margin: 0 5px 0 9px;
+    display: inline-block;
+    height: 38px;
+    width: 38px;
+}
+
+.footer .social{
+    display: flex;
+    justify-content: flex-end;
+    width: 1250px;
+    margin-left: 60px;
+    margin-top: 110px;
+}
+
+.footer .social .font-2{
+    font-size: 21px;
+    padding: 6px 0 0 8px;
+}
+
+.footer .social a:hover{
+    color: hotpink;
+    border: 1px solid hotpink;
+}
+
+@media(max-width: 425px){
+    body{
+        height: 834px;
+        display: flex;
+        justify-content: center;
+        background: url(../images/bg-mobile.png) no-repeat;
+        background-color: var(--color1);
+        background-size: 100%;
+    }
+    
+    .main{
+        height: 753px;
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+        background: none;
+        padding: 10px;
+    }
+
+    .header{
+        height: 107px;
+    }
+
+    .header .logo{
+        margin: 20px 0 60px 0;
+        width: 140px;
+        height: 32.16px;
+        transform: translateX(-5px);
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section .texts{
+        width: 300px;
+        margin: 0 0 ;
+    }
+
+    .section .texts .title{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .section .texts .text{
+        font-size: 16px;
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .section .ilustracao{
+        width: 300px;
+        height: 214px;
+        margin-left: 0px;
+        margin-bottom: 55px;
+    }
+
+    .button-register{
+        width: 225px;
+        height: 44px;
+        font-size: 13.33px;
+        margin-left: 37px;
+    }
+
+    .footer .social{
+        width: 296px;
+        margin-left: 0;
+        justify-content: center;
+        margin-top: 60px;
+        
+    }
+
+    a{
+        height: 33px;
+        width: 33px;
+        padding: 5.5px 0 0 7px;
+        margin: 0 5px 0 9px;
+        font-size: 16.5px;
+    }
+
+    .footer .social .font-2{
+        padding: 6px 0 0 7.5px;
+        font-size: 16px;
+    }
+}
