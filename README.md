@@ -33,7 +33,7 @@
 - Grid CSS
 - Font awesome
 
-### O que eu aprendi
+### O que aprendi
 
 #### Este projeto me serviu para retirar a maioria da pressão que eu sentia sobre fazer código por conta própria. 
 #### Agora com ele finalizado, eu me sinto muito mais apto para fazer futuros novos projetos.
